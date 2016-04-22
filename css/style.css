@@ -414,7 +414,7 @@ body >header >div {
 }
 body >header a {
   display: block;
-  color: #fff;
+  color: color-black;
 }
 #imglogo {
   float: left;
