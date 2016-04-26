@@ -1655,14 +1655,13 @@ section.comment {
     margin: 1em 0 0;
   }
 }
-.categorieslist li {
-  border-bottom: 1px solid #ccc;
-}
-.categorieslist li a {
+float left,
+a {
   display: block;
   padding: 0.5em 5%;
 }
-.categorieslist li a:hover {
+float left:hover,
+a:hover {
   color: #ea6753;
 }
 .tagslist {
@@ -1684,6 +1683,9 @@ section.comment {
 }
 .tagslist ul {
   padding: 0.5em 0;
+}
+.tagslist ul li {
+  float: left;
 }
 .tagslist ul li a {
   display: block;
