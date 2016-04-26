@@ -1685,9 +1685,6 @@ section.comment {
 .tagslist ul {
   padding: 0.5em 0;
 }
-.tagslist ul li {
-  float: left;
-}
 .tagslist ul li a {
   display: block;
   margin: 0.3125em;
