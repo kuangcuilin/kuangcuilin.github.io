@@ -1655,13 +1655,17 @@ section.comment {
     margin: 1em 0 0;
   }
 }
-float left,
-a {
+ul {
+  padding: 0.5em 0;
+}
+ul li {
+  float: left;
+}
+ul li a {
   display: block;
   padding: 0.5em 5%;
 }
-float left:hover,
-a:hover {
+ul li a:hover {
   color: #ea6753;
 }
 .tagslist {
