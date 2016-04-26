@@ -1655,21 +1655,15 @@ section.comment {
     margin: 1em 0 0;
   }
 }
-ul {
-  padding: 0.5em 0;
+.categorieslist li {
+  border-bottom: 1px solid #ccc;
 }
-ul li {
-  float: left;
-}
-ul li a {
+.categorieslist li a {
   display: block;
-  margin: 0.3125em;
-  padding: 0.125em 0.3125em;
-  background: #dbdbdb;
+  padding: 0.5em 5%;
 }
-ul li a:hover {
+.categorieslist li a:hover {
   color: #ea6753;
-  background: #e6e6e6;
 }
 .tagslist {
   margin: 1em 0 0;
